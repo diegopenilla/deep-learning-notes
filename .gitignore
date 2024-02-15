@@ -2,3 +2,6 @@
 .idea
 /node_modules
 .env
+.vscode
+state_db/
+.DS_Store
