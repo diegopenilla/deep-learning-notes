@@ -44,8 +44,8 @@ Messages are stored in **Message State**, a mutable structure that dynamically u
 A **graph-based workflow** forms the foundation of LangGraph. It enables complex logic execution by defining nodes (operations) and edges (data flow).
 
 A **graph** in LangGraph consists of:
-- **Nodes** $N = \{ n_1, n_2, ..., n_k \}$ → Represent **computational units** (functions, models, or decision points).
-- **Edges** $E = \{ (n_i, n_j)$ → Define **execution order** and dependencies between nodes.
+- **Nodes** $N = n_1, n_2, ..., n_k$ → Represent **computational units** (functions, models, or decision points).
+- **Edges** $E =(n_i, n_j)$ → Define **execution order** and dependencies between nodes.
 
 A simple LangGraph workflow may look like:
 ```python
